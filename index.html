@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Ganttásticos | PWA</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#020617">
 
@@ -11,7 +10,6 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body>
 
   <!-- NAVBAR -->
@@ -20,6 +18,26 @@
       <img src="img/icono2048.png" alt="Logo del equipo" class="nav-logo">
       <span class="nav-title">GANTTÁSTICOS</span>
     </div>
+
+    <nav class="nav-right">
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Equipo</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+
+      <div class="nav-search">
+        <input type="text" placeholder="Buscar...">
+        <button>🔍</button>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
   </header>
 
   <!-- HERO -->
@@ -31,7 +49,6 @@
   <!-- EQUIPO -->
   <main class="equipo">
     <h2>Integrantes del Equipo</h2>
-
     <section class="grid">
 
       <div class="integrante">
@@ -101,6 +118,16 @@
   <footer class="footer">
     <p>© 2026 · Equipo Ganttásticos · PWA</p>
   </footer>
+
+  <!-- JS HAMBURGUESA -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  </script>
 
 </body>
 </html>
