@@ -16,7 +16,7 @@
    "label": "GANTTASTICOS"
   },
   {
-   "src": "/img/screenshot_vertical.png",
+   "src": "/img/LOGO.png",
    "sizes": "591x980",
    "type": "image/png",
    "form_factor": "narrow",
@@ -25,7 +25,7 @@
  ],
  "icons": [
   {
-   "src": "img/icono2048.png",
+   "src": "/img/LOGO.png",
    "sizes": "2048x2048",
    "type": "image/png"
   }
