@@ -1,6 +1,6 @@
 /* Este archivo debe estar colocado en la carpeta raíz del sitio. */
 
-const VERSION = "1.21"
+const VERSION = "1.22"
 const CACHE = "Ganttasticos-v1.12"
 
 const ARCHIVOS = [
@@ -8,17 +8,6 @@ const ARCHIVOS = [
   "index.html",
   "site.webmanifest",
   "css/estilos.css",
-  "img/icono2048.png",
-  "img/maskable_icon.png",
-  "img/maskable_icon_x128.png",
-  "img/maskable_icon_x192.png",
-  "img/maskable_icon_x384.png",
-  "img/maskable_icon_x48.png",
-  "img/maskable_icon_x512.png",
-  "img/maskable_icon_x72.png",
-  "img/maskable_icon_x96.png",
-  "img/screenshot_horizontal.png",
-  "img/screenshot_vertical.png",
   "img/analisis.png",
   "img/BALTA.png",
   "img/gyn.png",
@@ -35,7 +24,7 @@ const ARCHIVOS = [
   "img/sync.png",
   "img/Vanne.png",
   "img/web.png",
-  "js/registraServiceWorker.js",
+  "js/lib/registraServiceWorker.js",
   "/"
 ];
 if (self instanceof ServiceWorkerGlobalScope) {
