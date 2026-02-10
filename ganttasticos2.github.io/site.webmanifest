@@ -118,15 +118,17 @@
   "screenshots": [
     {
       "src": "img/oficina.png",
-      "sizes": "512x512",
+      "sizes": "1024x768",
       "type": "image/png",
-      "form_factor": "wide"
+      "form_factor": "wide",
+      "label": "Vista de escritorio"
     },
     {
       "src": "img/oficina.png",
-      "sizes": "512x512",
+      "sizes": "768x1024",
       "type": "image/png",
-      "form_factor": "narrow"
+      "form_factor": "narrow",
+      "label": "Vista móvil"
     }
   ]
 }
