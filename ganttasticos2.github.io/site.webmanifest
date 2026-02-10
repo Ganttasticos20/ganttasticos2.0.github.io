@@ -8,13 +8,13 @@
   "icons": [
     {
       "src": "img/LOGO.png",
-      "sizes": "2048x2048",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "img/LOGO.png",
-      "sizes": "2048x2048",
+      "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "maskable"
     },
@@ -113,6 +113,20 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/oficina.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "img/oficina.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }
