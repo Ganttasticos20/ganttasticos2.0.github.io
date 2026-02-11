@@ -18,102 +18,22 @@
       "type": "image/png",
       "purpose": "maskable"
     },
-    {
-      "src": "img/pwa.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/analisis.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/BALTA.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/FRENTEGANT.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/gyn.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/HECTOR.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/ITATI.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/iu.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/MENDIETA.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/oficina.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/PSICO.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/psicologos.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/ROBER.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/sync.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/Vanne.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/web.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    }
+    { "src": "img/pwa.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/analisis.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/BALTA.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/FRENTEGANT.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/gyn.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/HECTOR.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/ITATI.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/iu.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/MENDIETA.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/oficina.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/PSICO.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/psicologos.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/ROBER.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/sync.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/Vanne.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/web.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
   ],
   "screenshots": [
     {
