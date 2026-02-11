@@ -6,7 +6,6 @@
   "theme_color": "#cbc693",
   "background_color": "#ffffff",
   "icons": [
-    
     {
       "src": "img/LOGO.png",
       "sizes": "2048x2048",
@@ -20,14 +19,14 @@
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Vista de Escritorio"
+      "label": "Escritorio"
     },
     {
       "src": "img/Movil.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Vista Móvil"
+      "label": "Movil"
     }
   ]
 }
