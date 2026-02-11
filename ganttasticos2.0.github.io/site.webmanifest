@@ -1,7 +1,7 @@
 {
   "short_name": "Ganttasticos",
   "name": "GANTTASTICOS PWA",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#cbc693",
   "background_color": "#ffffff",
@@ -10,7 +10,13 @@
       "src": "img/LOGO.png",
       "sizes": "1024x1024",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "img/LOGO.png",
+      "sizes": "2048x2048",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "screenshots": [
@@ -19,14 +25,14 @@
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Escritorio"
+      "label": "Vista de Escritorio"
     },
     {
       "src": "img/Movil.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Movil"
+      "label": "Vista Móvil"
     }
   ]
 }
