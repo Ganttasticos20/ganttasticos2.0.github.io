@@ -25,14 +25,15 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Vista de Escritorio"
+      "label": "Escritorio"
     },
     {
       "src": "img/Movil.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Vista de Celular"
+      "label": "Movil"
     }
   ]
+  
 }
