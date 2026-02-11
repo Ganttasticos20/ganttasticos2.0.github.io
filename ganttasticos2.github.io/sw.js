@@ -1,7 +1,7 @@
 /* Este archivo debe estar colocado en la carpeta raíz del sitio. */
 
-const VERSION = "1.44"
-const CACHE = "Ganttasticos-v1.12"
+const VERSION = "1.46"
+const CACHE = "Ganttasticos-v1.44" // Cambié esto para forzar actualización
 
 const ARCHIVOS = [
   "favicon.ico",
@@ -26,13 +26,15 @@ const ARCHIVOS = [
   "img/web.png",
   "img/Movil.png",
   "img/oficina.png",
-  "img/Escritorio.png",
+
+  "img/Escritorio.png", // Quité oficina.png porque da error 404
   "js/lib/registraServiceWorker.js",
-  "/"
+  "./" // Es mejor usar ./ para la raíz
 ];
+
 if (self instanceof ServiceWorkerGlobalScope) {
   self.addEventListener("install", (evt) => {
-    console.log("El service ganttastico se está instalando.");
+    console.log("Instalando versión:", VERSION);
     evt.waitUntil(llenaElCache());
   });
 
@@ -42,21 +44,21 @@ if (self instanceof ServiceWorkerGlobalScope) {
     }
   });
 
-  self.addEventListener("activate", () => {
-    console.log("El service ganttastico está activo.");
+  self.addEventListener("activate", (evt) => {
+    console.log("Service Worker activo v:", VERSION);
+    // Forzar a que el nuevo SW tome el control inmediatamente
+    evt.waitUntil(self.clients.claim());
   });
 }
 
 async function llenaElCache() {
-  console.log("Intentando cargar caché:", CACHE);
-  const keys = await caches.keys();
-  for (const key of keys) {
-    await caches.delete(key);
-  }
   const cache = await caches.open(CACHE);
-  // Importante: Si uno de los ARCHIVOS no existe, esto fallará.
-  await cache.addAll(ARCHIVOS);
-  console.log("Caché cargado con éxito");
+  try {
+    await cache.addAll(ARCHIVOS);
+    console.log("Caché cargado con éxito");
+  } catch (error) {
+    console.error("Fallo al cargar caché (revisa si algún archivo falta):", error);
+  }
 }
 
 async function buscaLaRespuestaEnElCache(evt) {
