@@ -10,6 +10,7 @@
  "img/ITATI.png",
  "img/iu.png",
  "img/LOGO.png",
+ "img/LOGO2.png",
  "img/MENDIETA.png",
  "img/PSICO.png",
  "img/psicologos.png",
